@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.imgContainerXX {
+	margin: 50px;
+	/* height: 300px;*/
+	width: 700px; 
+	display:flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	padding: 2px;
+}
+
+imgXX {
+	width: 200px;
+}
+
+/* img {
+	width: calc(33.3% - 4px);
+} */
+
+/* @media (max-width: 600px) {
+	img {
+		width: calc(50% - 2px);
+	}
+} */

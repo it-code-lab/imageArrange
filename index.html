@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS  | Arrange images responsive with flexbox</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+
+
+	<div style="padding: 5px; margin: 5px; line-height: 30px;">
+	Containers Count: <input type="text" id="containerCnt" value="3" placeholder="Containers Count">	<br>
+	Containers Border: <input type="text" id="containerBorder" value="2px solid grey" placeholder="Containers Border">	<br>
+	Image Count (Except Last Container): <input type="text" id="imgCnt" value="1" placeholder="Img Count (Except Last)">	<br>
+	Image Count (Last container): <input type="text" id="lastCntImgCnt" value="1" placeholder="Img Count (Last container)"><br>
+	Image URL (e.g. www.abc/xyz.png): <input type="text" id="imgNm" value="https://vellager.sirv.com/Images/clipart357401.png" placeholder="Image URL (e.g. www.abc/xyz.png)"> <br>
+	Image width (px): <input type="text" id="imgWidth" value="200" placeholder="Image width (px)"> <br>
+
+
+	<button type="button" onclick="showImg()">Show Images</button> 
+	<button type="button" onclick="copyOuterHTML()">Copy Outer HTML</button>
+	</div>
+	<div id="copyContainerHTML">
+	<div id = "outerContainer" style="display: flex; flex-wrap: wrap;"></div>
+	</div>	
+
+
+<!-- <div class="imgContainer">
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+	<img src="https://1-notes.com/wp-content/uploads/2020/06/quality-50-1024x682.jpg" />
+</div> -->
+
+
+  
+</body>
+</html>
