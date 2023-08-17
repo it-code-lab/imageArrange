@@ -14,7 +14,7 @@ function showImg(){
     let newHTML = '';
 
     for (let index = 0; index < containerCnt - 1; index++) {
-        newHTML = newHTML + '<div class="imgContainer" style="display: flex; flex-wrap: wrap; border:' + containerBorder + ' ">';
+        newHTML = newHTML + '<div class="imgContainer" style="display: flex; flex-wrap: wrap; margin:5px; padding: 5px; border:' + containerBorder + ' ">';
 
         for (let j = 0; j < imgCnt; j++) {
             newHTML = newHTML + imageElement ;   
@@ -24,7 +24,7 @@ function showImg(){
 
     }
 
-    newHTML = newHTML + '<div class="imgContainer" style="display: flex; flex-wrap: wrap; border:' + containerBorder + ' ">';
+    newHTML = newHTML + '<div class="imgContainer" style="display: flex; flex-wrap: wrap; margin:5px; padding: 2px; border:' + containerBorder + ' ">';
 
     for (let j = 0; j < lastCntImgCnt; j++) {
         newHTML = newHTML + imageElement ;   
